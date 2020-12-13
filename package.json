@@ -1,24 +1,24 @@
 {
-  "name": "@luchx/cli",
+  "name": "@guangliangliang/cli",
   "version": "0.0.1",
   "description": "A cli toolset for FE developer created by Echi",
   "bin": {
-    "luchx": "bin/luchx"
+    "gll": "bin/gll"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luchx/ECHI_CLI.git",
+    "url": "git+https://github.com/guangliangliang/ll-cli.git",
     "directory": "bin/cli"
   },
   "keywords": [
     "cli"
   ],
-  "author": "luchx1993@gmail.com",
+  "author": "xxliangliangguang@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luchx/ECHI_CLI/issues"
+    "url": "https://github.com/guangliangliang/ll-cli/issues"
   },
-  "homepage": "https://github.com/luchx/ECHI_CLI.git",
+  "homepage": "https://github.com/guangliangliang/ll-cli.git",
   "publishConfig": {
     "access": "public"
   },
