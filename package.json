@@ -1,0 +1,68 @@
+{
+  "name": "@luchx/cli",
+  "version": "0.0.1",
+  "description": "A cli toolset for FE developer created by Echi",
+  "bin": {
+    "luchx": "bin/luchx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luchx/ECHI_CLI.git",
+    "directory": "bin/cli"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "luchx1993@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luchx/ECHI_CLI/issues"
+  },
+  "homepage": "https://github.com/luchx/ECHI_CLI.git",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint --fix lib/**/*.js bin/*",
+    "precommit": "lint-staged"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "lib/**/*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "bin/*": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "didyoumean": "^1.2.1",
+    "download-git-repo": "^2.0.0",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.2",
+    "semver": "^6.3.0",
+    "shelljs": "^0.8.4",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^3.0.8",
+    "lint-staged": "^9.4.1"
+  },
+  "engines": {
+    "node": ">=8.9"
+  }
+}
