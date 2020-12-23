@@ -1,6 +1,6 @@
 {
-  "name": "@guangliangliang/cli",
-  "version": "0.0.1",
+  "name": "gll-cli",
+  "version": "1.0.0",
   "description": "A cli toolset for FE developer created by Echi",
   "bin": {
     "gll": "bin/gll"

@@ -1,15 +1,19 @@
-# ECHI_CLI
+<!--
+ * @Description: 
+ * @Version: 1.0
+ * @Autor: gll
+ * @Date: 2020-12-13 12:05:51
+ * @LastEditors: gll
+ * @LastEditTime: 2020-12-23 13:56:32
+-->
+# GLL_CLI
 
-> 一款自用的前端脚手架工具，配合使用命令行將自己的线上模板进行拉取
-
-## 安装
-
-本项目没有发布到npm上，仅作学习研究之用，可以自己拉取项目然后执行`npm link`，在本地体验。
+> 一款自用的项目脚手架工具，配合使用命令行將自己的线上模板进行拉取
 
 ## 命令
 
 ```shell
-Usage: luchx <command> [options]
+Usage: gll <command> [options]
 
 Options:
   -V, --version      output the version number
@@ -18,14 +22,5 @@ Options:
 Commands:
   create <app-name>    Create a project with template already created.
 
-  Run luchx <command> --help for detailed usage of given command.
+  Run gll <command> --help for detailed usage of given command.
 ```
-
-## Todo
-
-- [x] 创建指令
-- [x] 目录名校验
-- [x] 下载远程文件
-- [x] 新增服务
-- [x] 添加eslint
-   
